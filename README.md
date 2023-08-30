@@ -12,7 +12,7 @@ Dedicated Website for Element RP 18+
 
 ## Screenshot
 
-![Screenshot of Element RP 18+ Website]()
+![Screenshot of Element RP 18+ Website](https://github.com/ElementalCodeFiveM/serverWebsite/blob/main/img/element_website.png?raw=true)
 
 ## Table of Contents
 
