@@ -25,5 +25,5 @@ Dedicated Website for Element RP 18+
 If you have any questions, please use the links below to reach us.
 
 [Email](mailto:state.elementrp@gmail.com)
-![Discord](https://dcbadge.vercel.app/api/shield/elementrp18)
+[![Discord](https://dcbadge.vercel.app/api/server/elementrp18)](https://discord.gg/elementrp18)
 [GitHub](https://github.com/ElementalCodeFiveM)
