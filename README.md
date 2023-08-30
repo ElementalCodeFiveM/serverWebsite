@@ -5,6 +5,13 @@ Element RP 18+ community website
 
 Dedicated Website for Element RP 18+
 
+## Table of Contents
+
+- [Description](#description)
+- [Authors](#authors)
+- [Installation](#installation)
+- [Contact Us](#contactus)
+
 ## Authors
 
 - [@AceHuli](https://github.com/AceHuli)
@@ -14,14 +21,6 @@ Dedicated Website for Element RP 18+
 
 ![Screenshot of Element RP 18+ Website](https://github.com/ElementalCodeFiveM/serverWebsite/blob/main/img/element_website.png?raw=true)
 
-## Table of Contents
-
-- [Description](#description)
-- [Authors](#authors)
-- [Installation](#installation)
-- [Contributors](#contributing)
-- [License](#license)
-- [Questions](#questions)
 
 ## Installation
 
