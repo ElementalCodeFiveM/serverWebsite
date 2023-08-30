@@ -12,8 +12,8 @@ Dedicated Website for Element RP 18+
 
 ## Authors
 
-- ![@AceHuli](https://dcbadge.vercel.app/api/shield/AceHuli)
-- ![@tjb47-dev](https://dcbadge.vercel.app/api/shield/tjb47-dev)
+- ![@AceHuli](https://dcbadge.vercel.app/api/shield/696646957556432906)
+- ![@tjb47-dev](https://dcbadge.vercel.app/api/shield/395056210870665226)
 
 ## Screenshot
 
