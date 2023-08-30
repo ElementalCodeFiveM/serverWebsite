@@ -12,8 +12,8 @@ Dedicated Website for Element RP 18+
 
 ## Authors
 
-- https://dcbadge.vercel.app/api/shield/AceHuli
-- https://dcbadge.vercel.app/api/shield/tjb47-dev
+- ![@AceHuli](https://dcbadge.vercel.app/api/shield/AceHuli)
+- ![@tjb47-dev](https://dcbadge.vercel.app/api/shield/tjb47-dev)
 
 ## Screenshot
 
@@ -25,5 +25,5 @@ Dedicated Website for Element RP 18+
 If you have any questions, please use the links below to reach us.
 
 [Email](mailto:state.elementrp@gmail.com)
-https://dcbadge.vercel.app/api/shield/elementrp18
+![Discord](https://dcbadge.vercel.app/api/shield/elementrp18)
 [GitHub](https://github.com/ElementalCodeFiveM)
