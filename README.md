@@ -9,7 +9,6 @@ Dedicated Website for Element RP 18+
 
 - [Description](#description)
 - [Authors](#authors)
-- [Installation](#installation)
 - [Contact Us](#contactus)
 
 ## Authors
@@ -20,12 +19,6 @@ Dedicated Website for Element RP 18+
 ## Screenshot
 
 ![Screenshot of Element RP 18+ Website](https://github.com/ElementalCodeFiveM/serverWebsite/blob/main/img/element_website.png?raw=true)
-
-
-## Installation
-
-
-
 
 
 ## Contact Us
