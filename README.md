@@ -3,7 +3,7 @@ Element RP 18+ community website
 
 ## Description
 
-readmeGenerator is a small application built with node.js to generate your Readme.md by answering a series of questions.
+Dedicated Website for Element RP 18+
 
 ## Authors
 
