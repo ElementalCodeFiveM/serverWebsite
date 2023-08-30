@@ -6,6 +6,30 @@
     --element-g2: #2c2b2b;
 }
 
+/* width */
+::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    height: 10px;
+    width: 10px;
+}
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--element-p);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: var(--element-p); 
+} */
+
 .head{
     height: 20vh;
     width: 65vh;
