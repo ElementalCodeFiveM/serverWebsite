@@ -9,7 +9,7 @@
 /* width */
 ::-webkit-scrollbar {
     height: 15px;
-    width: 15px;
+    width: 10px;
 }
 
 /* Track */
@@ -22,7 +22,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--element-p);
-    border-radius: 10px;
+    border-radius: 0.7vw;
 }
 
 /* Handle on hover */
@@ -133,26 +133,29 @@
 
 @keyframes dropIn {
     from {padding-top: 0vh;}
-    to {padding-top: 5vh;}
+    to {padding-top: 3vh;}
 }
 
 .mainPanels{
-    margin: auto;
-    display: flex;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
-    align-items: top;
-    column-count: 3;
-    column-gap: 5vh;
-    column-rule-color: #5d14db;
-    column-rule-width: 10px;
-    column-rule-style: solid;
-    margin-top: auto;
+    align-content: center;
+    height: auto;
+    width: 95%;
     animation-name: fadeIn;
     animation-duration: 1s;
+    transform: translateX(1.5%);
 }
 
 .sectionBlock{
-    padding-top: 5vh;
+    display: table-cell;
+    justify-content: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vh;
     padding-bottom: 10vh;
     animation-name: dropIn;
     animation-duration: 1s;
@@ -162,16 +165,13 @@
     font-family: 'Naston', sans-serif;
     color: var(--element-b);
     text-shadow: var(--element-p) 0.35vh 0.35vh;
-    text-align: center;
     font-size: xx-large;
+    transform: translateX(24%);
 }
 
 .sectionContent{
-    height: 75vh;
+    height: 50vh;
     width: 50vh;
-    padding-left: 2vh;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
     background-color: black;
     border-radius: 1vw;
     font-size: 130%;
@@ -188,6 +188,8 @@
     height: fit-content;
     padding-block-start: 2.5%;
     padding-block-end: 5%;
+    margin-left: 3.5%;
+    /* margin-top: ; */
 }
 
 .teamPic{
@@ -212,25 +214,24 @@
 }
 
 ol {
-    text-align: left;
     display: block;
-    margin: 0;
+    margin-top: 3%;
+    margin-left: 2%;
 }
 ol li {
     display: list-item;
     position: relative;
-    padding-top: 2.5%;
-    padding-bottom: 5%;
+    margin-bottom: 2%;
 }
 ol li ul {
     position: absolute;
-    top: 48px;
     left: 0;
     width: 90%;
     border-radius: 1vw;
-    display: list-item;
+    display: block;
     opacity: 0;
     visibility: hidden;
+    margin-top: 1%;
 }
 ol li ul li { 
     display: list-item;
@@ -241,6 +242,7 @@ ol li ul li {
 }
 ol li ul li p { 
     display: list-item;
+    margin-top: 2%;
     margin-left: 5%;
     list-style-type: circle;
     font-size: small;
