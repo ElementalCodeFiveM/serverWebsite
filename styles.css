@@ -1,0 +1,250 @@
+:root{
+    /* local color code definitions */
+    --element-p: #5d14db;
+    --element-b: #16bdbd;
+    --element-g1: #5a5858;
+    --element-g2: #2c2b2b;
+}
+
+.head{
+    height: 20vh;
+    width: 65vh;
+}
+
+.banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+    width: 75%;
+    background-color: black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 1vw;
+    border-style: solid;
+    border-color: #16bdbd;
+    box-shadow: var(--element-p) 1vh 1vh;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.bulbOn{
+    height: 4.5%;
+    position: fixed;
+    top:1%;
+    right: 1%;
+    fill: white;
+    user-select: none;
+}
+
+.bulbOn:hover{
+    height: 4.5%;
+    position: fixed;
+    top:1%;
+    right: 1%;
+    fill: var(--element-p);
+    user-select: none;
+}
+
+.bulbOff{
+    height: 4.5%;
+    position: fixed;
+    top:1%;
+    right: 1%;
+    fill: var(--element-g1);
+    user-select: none;
+}
+
+.bulbOff:hover{
+    height: 4.5%;
+    position: fixed;
+    top:1%;
+    right: 1%;
+    fill: var(--element-p);
+    user-select: none;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 520;
+}
+
+.caption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: fit-content;
+}
+
+.captionText{
+    background-image: url(./img/Gradient\ Generator\ Exported\ PNG.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Naston', sans-serif;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.baseLight{
+    background-color: var(--element-g1);
+}
+
+.baseDark{
+    background-color: var(--element-g2);
+    height: max-content;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0.0;}
+    to {opacity: 1.0;}
+}
+
+@keyframes dropIn {
+    from {padding-top: 0vh;}
+    to {padding-top: 5vh;}
+}
+
+.mainPanels{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    column-count: 3;
+    column-gap: 5vh;
+    column-rule-color: #5d14db;
+    column-rule-width: 10px;
+    column-rule-style: solid;
+    margin-top: auto;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.sectionBlock{
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    animation-name: dropIn;
+    animation-duration: 1s;
+}
+
+.sectionTitle{
+    font-family: 'Naston', sans-serif;
+    color: var(--element-b);
+    text-shadow: var(--element-p) 0.35vh 0.35vh;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sectionContent{
+    height: 75vh;
+    width: 50vh;
+    padding-left: 2vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    background-color: black;
+    border-radius: 1vw;
+    font-size: 130%;
+    color: var(--element-b); 
+    font-family: 'Naston', sans-serif;
+    border: 0.5vh solid var(--element-b);
+    box-shadow: var(--element-p) 1vh 1vh;
+    text-shadow: var(--element-p) 0.2vh 0.2vh;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+}
+
+.teamMember{
+    height: fit-content;
+    padding-block-start: 2.5%;
+    padding-block-end: 5%;
+}
+
+.teamPic{
+    float: left;
+    height: 100;
+    width: auto;
+    border: 0.5vh solid var(--element-p);
+    border-radius: 100px;
+}
+
+.memberInfo{
+    text-indent: 5%;
+    padding-block-start: 2.5%;
+}
+
+.memberName{
+    text-decoration-line: underline;
+}
+
+.list{
+    text-decoration-line: underline;
+}
+
+ol {
+    text-align: left;
+    display: block;
+    margin: 0;
+}
+ol li {
+    display: list-item;
+    position: relative;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+ol li ul {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 90%;
+    border-radius: 1vw;
+    display: list-item;
+    opacity: 0;
+    visibility: hidden;
+}
+ol li ul li { 
+    display: list-item;
+    justify-content: left;
+    list-style-type: disc;
+    font-size: medium;
+    padding-right: 2%;
+}
+ol li ul li p { 
+    display: list-item;
+    margin-left: 5%;
+    list-style-type: circle;
+    font-size: small;
+}
+ol li:hover ul {
+    background-color: var(--element-p);
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+.linksGroup{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-family: 'Naston', sans-serif;
+    left: 30vw;
+    bottom: 1%;
+}
+
+.linkText{
+    color: white;
+    padding-inline-end: 20px;
+}
+
+.linkText:hover{
+    color: var(--element-p);
+    padding-inline-end: 20px;
+}
