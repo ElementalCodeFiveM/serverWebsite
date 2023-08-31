@@ -15,8 +15,7 @@
 /* Track */
 ::-webkit-scrollbar-track {
     background: transparent;
-    height: 10px;
-    width: 10px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-corner {
@@ -41,7 +40,7 @@
     margin-top: 0.5%;
     height: auto;
     width: auto;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.500);
     border-radius: 1vw;
     border: 0.5vh solid var(--element-b);
     box-shadow: var(--element-p) 1vh 1vh;
@@ -51,40 +50,48 @@
     position: relative;
 }
 
-.bulbOn{
-    height: 10%;
+.modeToggleOff{
+    height: 6%;
+    width: 3%;
     position: absolute;
     bottom: 2%;
     right: 0.5%;
-    fill: white;
-    user-select: none;
+    border: 0.5vh solid var(--element-g2);
+    border-radius: 999px;
 }
 
-.bulbOn:hover{
-    height: 10%;
+.toggleOff{
+    height: 2%;
+    width: 0.8%;
     position: absolute;
-    bottom: 2%;
-    right: 0.5%;
-    fill: var(--element-p);
-    user-select: none;
+    bottom: 4.2%;
+    right: 2%;
+    background: var(--element-g2);
+    border: 0.5vh solid var(--element-g2);
+    border-radius: 999px;
+    cursor: pointer;
 }
 
-.bulbOff{
-    height: 10%;
+.modeToggleOn{
+    height: 6%;
+    width: 3%;
     position: absolute;
     bottom: 2%;
     right: 0.5%;
-    fill: var(--element-g1);
-    user-select: none;
+    border: 0.5vh solid var(--element-g1);
+    border-radius: 999px;
 }
 
-.bulbOff:hover{
-    height: 10%;
+.toggleOn{
+    height: 2%;
+    width: 0.8%;
     position: absolute;
-    bottom: 2%;
-    right: 0.5%;
-    fill: var(--element-p);
-    user-select: none;
+    bottom: 4.2%;
+    right: 1.2%;
+    background: var(--element-g1);
+    border: 0.5vh solid var(--element-g1);
+    border-radius: 999px;
+    cursor: pointer;
 }
 
 .logo{
@@ -175,9 +182,9 @@
 }
 
 .sectionContent{
-    height: auto;
+    height: 35vw;
     width: 28vw;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.500);
     font-size: 130%;
     color: var(--element-b); 
     font-family: 'Naston', sans-serif;
