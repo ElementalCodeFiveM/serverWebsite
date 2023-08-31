@@ -41,7 +41,7 @@
     margin-top: 0.5%;
     height: auto;
     width: auto;
-    background-color: black;
+    background-color: transparent;
     border-radius: 1vw;
     border: 0.5vh solid var(--element-b);
     box-shadow: var(--element-p) 1vh 1vh;
@@ -118,12 +118,17 @@
 }
 
 .baseLight{
-    background-color: var(--element-g1);
+    /* background-color: var(--element-g1); */
+    background-image: url("./img/light.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow-x: hidden;
 }
 
 .baseDark{
-    background-color: var(--element-g2);
+    /* background-color: var(--element-g2); */
+    background-image: url("./img/dark.png") ;
+    background-size: cover;
     overflow-x: hidden;
 }
 
