@@ -18,6 +18,10 @@
     height: 10px;
     width: 10px;
 }
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
     
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -30,60 +34,55 @@
     background: var(--element-p); 
 } */
 
-.head{
-    height: 20vh;
-    width: 65vh;
-}
-
 .banner{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20%;
-    width: 75%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    height: auto;
+    width: auto;
     background-color: black;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     border-radius: 1vw;
-    border-style: solid;
-    border-color: #16bdbd;
+    border: 0.5vh solid var(--element-b);
     box-shadow: var(--element-p) 1vh 1vh;
     overflow: hidden;
     overflow-wrap: break-word;
+    user-select: none;
+    position: relative;
 }
 
 .bulbOn{
-    height: 4.5%;
-    position: fixed;
-    top:1%;
-    right: 1%;
+    height: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 0.5%;
     fill: white;
     user-select: none;
 }
 
 .bulbOn:hover{
-    height: 4.5%;
-    position: fixed;
-    top:1%;
-    right: 1%;
+    height: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 0.5%;
     fill: var(--element-p);
     user-select: none;
 }
 
 .bulbOff{
-    height: 4.5%;
-    position: fixed;
-    top:1%;
-    right: 1%;
+    height: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 0.5%;
     fill: var(--element-g1);
     user-select: none;
 }
 
 .bulbOff:hover{
-    height: 4.5%;
-    position: fixed;
-    top:1%;
-    right: 1%;
+    height: 10%;
+    position: absolute;
+    bottom: 2%;
+    right: 0.5%;
     fill: var(--element-p);
     user-select: none;
 }
@@ -92,38 +91,40 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
     height: auto;
-    width: 520;
+    width: 55%;
 }
 
 .caption{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    width: fit-content;
+    margin-bottom: 2%;
 }
 
 .captionText{
     background-image: url(./img/Gradient\ Generator\ Exported\ PNG.png);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: 100%;
+    background-size: 55%;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Naston', sans-serif;
     text-align: center;
     -webkit-font-smoothing: antialiased;
+    font-size: 225%;
 }
 
 .baseLight{
     background-color: var(--element-g1);
+    overflow-x: hidden;
 }
 
 .baseDark{
     background-color: var(--element-g2);
-    height: max-content;
+    overflow-x: hidden;
 }
 
 @keyframes fadeIn {
@@ -131,22 +132,21 @@
     to {opacity: 1.0;}
 }
 
-@keyframes dropIn {
-    from {padding-top: 0vh;}
-    to {padding-top: 3vh;}
+@keyframes pullUp {
+    from {padding-top: 5vh;}
+    to {padding-top: 1vh;}
 }
 
 .mainPanels{
-    display: table;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    align-content: center;
     height: auto;
-    width: 95%;
+    width: auto;
     animation-name: fadeIn;
     animation-duration: 1s;
-    transform: translateX(1.5%);
+    position: relative;
 }
 
 .sectionBlock{
@@ -155,9 +155,9 @@
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3vh;
+    padding-top: 1vh;
     padding-bottom: 10vh;
-    animation-name: dropIn;
+    animation-name: pullUp;
     animation-duration: 1s;
 }
 
@@ -166,17 +166,17 @@
     color: var(--element-b);
     text-shadow: var(--element-p) 0.35vh 0.35vh;
     font-size: xx-large;
-    transform: translateX(24%);
+    text-align: center;
 }
 
 .sectionContent{
-    height: 50vh;
-    width: 50vh;
+    height: auto;
+    width: 28vw;
     background-color: black;
-    border-radius: 1vw;
     font-size: 130%;
     color: var(--element-b); 
     font-family: 'Naston', sans-serif;
+    border-radius: 1vw;
     border: 0.5vh solid var(--element-b);
     box-shadow: var(--element-p) 1vh 1vh;
     text-shadow: var(--element-p) 0.2vh 0.2vh;
@@ -189,28 +189,41 @@
     padding-block-start: 2.5%;
     padding-block-end: 5%;
     margin-left: 3.5%;
-<<<<<<< HEAD
-    /* margin-top: ; */
-=======
-    margin-top: ;
->>>>>>> f4b4318cfe6554902741f28e62f6009609df5fb9
 }
 
 .teamPic{
     float: left;
-    height: 100;
+    height: 110;
     width: auto;
     border: 0.5vh solid var(--element-p);
     border-radius: 100px;
+    user-select: none;
+    margin-top: 3%;
 }
 
 .memberInfo{
-    text-indent: 5%;
-    padding-block-start: 2.5%;
+    margin-left: 25%;
 }
 
 .memberName{
     text-decoration-line: underline;
+}
+
+.teamRoles{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    list-style-type: square;
+}
+
+.discAct{
+    margin-top: 1%;
+    margin-left: 10%;
+    height: 30px;
+    width: auto;
+    border: 0.25vh solid var(--element-p);
+    border-radius: 999px;
+    user-select: none;
 }
 
 .list{
@@ -243,6 +256,7 @@ ol li ul li {
     list-style-type: disc;
     font-size: medium;
     padding-right: 2%;
+    margin-top: 2%;
 }
 ol li ul li p { 
     display: list-item;
@@ -257,6 +271,8 @@ ol li:hover ul {
     opacity: 1;
     visibility: visible;
     z-index: 1;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
 }
 
 .linksGroup{
@@ -265,7 +281,6 @@ ol li:hover ul {
     margin-right: auto;
     justify-content: center;
     font-family: 'Naston', sans-serif;
-    left: 30vw;
     bottom: 1%;
 }
 
