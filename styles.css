@@ -44,8 +44,6 @@
     border-radius: 1vw;
     border: 0.5vh solid var(--element-b);
     box-shadow: var(--element-p) 1vh 1vh;
-    overflow: hidden;
-    overflow-wrap: break-word;
     user-select: none;
     position: relative;
 }
@@ -112,7 +110,7 @@
 
 .captionText{
     background-image: url(./img/Gradient\ Generator\ Exported\ PNG.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position-x: center;
     background-size: 55%;
     background-clip: text;
@@ -198,6 +196,9 @@
 
 .teamMember{
     height: fit-content;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
     padding-block-start: 2.5%;
     padding-block-end: 5%;
     margin-left: 3.5%;
@@ -205,16 +206,17 @@
 
 .teamPic{
     float: left;
-    height: 110;
-    width: auto;
+    height: 110px;
+    width: 110px;
     border: 0.5vh solid var(--element-p);
-    border-radius: 100px;
+    border-radius: 999px;
     user-select: none;
     margin-top: 3%;
 }
 
 .memberInfo{
-    margin-left: 25%;
+    margin-left: 50px;
+    padding-left: 2%;
 }
 
 .memberName{
@@ -224,13 +226,13 @@
 .teamRoles{
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 10%;
+    margin-left: 50px;
     list-style-type: square;
 }
 
 .discAct{
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 50px;
     height: 30px;
     width: auto;
     border: 0.25vh solid var(--element-p);
