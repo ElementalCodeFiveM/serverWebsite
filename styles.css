@@ -68,6 +68,8 @@
     border: 0.5vh solid var(--element-g2);
     border-radius: 999px;
     cursor: pointer;
+    animation-name: toggleOff;
+    animation-duration: 0.25s;
 }
 
 .modeToggleOn{
@@ -76,7 +78,7 @@
     position: absolute;
     bottom: 2%;
     right: 0.5%;
-    border: 0.5vh solid var(--element-g1);
+    border: 0.5vh solid white;
     border-radius: 999px;
 }
 
@@ -86,10 +88,12 @@
     position: absolute;
     bottom: 4.2%;
     right: 1.2%;
-    background: var(--element-g1);
-    border: 0.5vh solid var(--element-g1);
+    background: white;
+    border: 0.5vh solid white;
     border-radius: 999px;
     cursor: pointer;
+    animation-name: toggleOn;
+    animation-duration: 0.25s;
 }
 
 .logo{
@@ -122,7 +126,7 @@
     font-size: 225%;
 }
 
-.baseLight{
+.baseDark.baseLight{
     /* background-color: var(--element-g1); */
     background-image: url("./img/light.png") ;
     background-repeat: no-repeat;
@@ -145,6 +149,16 @@
 @keyframes pullUp {
     from {padding-top: 5vh;}
     to {padding-top: 1vh;}
+}
+
+@keyframes toggleOn {
+    from  {right: 2%;}
+    to {right: 1.2%;}
+}
+
+@keyframes toggleOff {
+    from  {right: 1.2%;}
+    to {right: 2%;}
 }
 
 .mainPanels{
@@ -196,27 +210,26 @@
 
 .teamMember{
     height: fit-content;
-    display: inline-block;
     justify-content: center;
     align-content: center;
     padding-block-start: 2.5%;
     padding-block-end: 5%;
-    margin-left: 3.5%;
+    margin-left: 4%;
 }
 
 .teamPic{
     float: left;
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 150px;
     border: 0.5vh solid var(--element-p);
     border-radius: 999px;
     user-select: none;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .memberInfo{
-    margin-left: 50px;
-    padding-left: 2%;
+    margin-top: 2%;
+    margin-left: 35%;
 }
 
 .memberName{
@@ -226,13 +239,13 @@
 .teamRoles{
     margin-top: 1%;
     margin-bottom: 1%;
-    margin-left: 50px;
+    margin-left: 10%;
     list-style-type: square;
 }
 
 .discAct{
     margin-top: 1%;
-    margin-left: 50px;
+    margin-left: 5%;
     height: 30px;
     width: auto;
     border: 0.25vh solid var(--element-p);

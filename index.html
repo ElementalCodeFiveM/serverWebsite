@@ -27,7 +27,7 @@
                 </h3>
             </section>
             <a id="toggleFrame" class="modeToggleOff"></a>
-            <a id="modeToggle" class="toggleOff" onclick="lightModes()"></a>
+            <a id="modeToggle" class="toggleOff" onclick="lightModes();"></a>
         </div>
     </head>
 
@@ -234,7 +234,7 @@
 
     <script>
         function lightModes() {
-            var element = document.getElementById("mainPage");
+            var element = document.body;
             var toggle = document.getElementById("modeToggle");
             var frame = document.getElementById("toggleFrame");
             element.classList.toggle("baseLight");
