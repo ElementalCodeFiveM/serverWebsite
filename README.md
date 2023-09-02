@@ -21,7 +21,7 @@ Dedicated Website for Element RP 18+
 
 ## Live View
 
-[github.io](https://elementalcodefivem.github.io/serverWebsite/)
+[GitHub Pages](https://elementalcodefivem.github.io/serverWebsite/)
 
 ## Contact Us
 
