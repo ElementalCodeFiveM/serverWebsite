@@ -21,7 +21,7 @@ Dedicated Website for Element RP 18+
 
 ## Preview
 
-[Latest rawcdn link](https://rawcdn.githack.com/ElementalCodeFiveM/serverWebsite/adf4ef5b930f86b6c34d60ce9a263d96241e5061/index.html)
+[Latest rawcdn link](https://rawcdn.githack.com/ElementalCodeFiveM/serverWebsite/c41e8d95887fe893baefa2df3a3f2bdbb69c5c20/index.html)
 
 ## Contact Us
 
