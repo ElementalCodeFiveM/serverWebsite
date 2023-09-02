@@ -19,9 +19,9 @@ Dedicated Website for Element RP 18+
 
 ![Screenshot of Element RP 18+ Website](https://github.com/ElementalCodeFiveM/serverWebsite/blob/main/img/element_website.png?raw=true)
 
-## Preview
+## Live View
 
-[Latest rawcdn link](https://rawcdn.githack.com/ElementalCodeFiveM/serverWebsite/c41e8d95887fe893baefa2df3a3f2bdbb69c5c20/index.html)
+[github.io](https://elementalcodefivem.github.io/serverWebsite/)
 
 ## Contact Us
 
