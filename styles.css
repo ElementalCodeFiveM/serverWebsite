@@ -59,10 +59,10 @@
 }
 
 .toggleOff {
-    height: 2%;
-    width: 0.8%;
+    height: 6%;
+    width: 1.5%;
     position: absolute;
-    bottom: 4.2%;
+    bottom: 2%;
     right: 2%;
     background: var(--element-g2);
     border: 0.5vh solid var(--element-g2);
@@ -83,11 +83,11 @@
 }
 
 .toggleOn {
-    height: 2%;
-    width: 0.8%;
+    height: 6%;
+    width: 1.5%;
     position: absolute;
-    bottom: 4.2%;
-    right: 1.2%;
+    bottom: 2%;
+    right: 0.5%;
     background: white;
     border: 0.5vh solid white;
     border-radius: 999px;
@@ -153,11 +153,11 @@
 
 @keyframes toggleOn {
     from  {right: 2%;}
-    to {right: 1.2%;}
+    to {right: 0.5%;}
 }
 
 @keyframes toggleOff {
-    from  {right: 1.2%;}
+    from  {right: 0.5%;}
     to {right: 2%;}
 }
 
