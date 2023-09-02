@@ -1,4 +1,4 @@
-:root{
+:root {
     /* local color code definitions */
     --element-p: #5d14db;
     --element-b: #16bdbd;
@@ -33,7 +33,7 @@
     background: var(--element-p); 
 } */
 
-.banner{
+.banner {
     display: block;
     margin-left: 0.5%;
     margin-right: 0.5%;
@@ -48,7 +48,7 @@
     position: relative;
 }
 
-.modeToggleOff{
+.modeToggleOff {
     height: 6%;
     width: 3%;
     position: absolute;
@@ -58,7 +58,7 @@
     border-radius: 999px;
 }
 
-.toggleOff{
+.toggleOff {
     height: 2%;
     width: 0.8%;
     position: absolute;
@@ -72,7 +72,7 @@
     animation-duration: 0.25s;
 }
 
-.modeToggleOn{
+.modeToggleOn {
     height: 6%;
     width: 3%;
     position: absolute;
@@ -82,7 +82,7 @@
     border-radius: 999px;
 }
 
-.toggleOn{
+.toggleOn {
     height: 2%;
     width: 0.8%;
     position: absolute;
@@ -96,7 +96,7 @@
     animation-duration: 0.25s;
 }
 
-.logo{
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -105,14 +105,14 @@
     width: 55%;
 }
 
-.caption{
+.caption {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
 }
 
-.captionText{
+.captionText {
     background-image: url(./img/Gradient\ Generator\ Exported\ PNG.png);
     background-repeat: repeat;
     background-position-x: center;
@@ -126,7 +126,7 @@
     font-size: 37px;
 }
 
-.baseDark.baseLight{
+.baseDark.baseLight {
     /* background-color: var(--element-g1); */
     background-image: url("./img/light.png") ;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@
     overflow-x: hidden;
 }
 
-.baseDark{
+.baseDark {
     /* background-color: var(--element-g2); */
     background-image: url("./img/dark.png") ;
     background-size: cover;
@@ -161,7 +161,7 @@
     to {right: 2%;}
 }
 
-.mainPanels{
+.mainPanels {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -173,7 +173,7 @@
     position: relative;
 }
 
-.sectionBlock{
+.sectionBlock {
     display: table-cell;
     justify-content: center;
     align-content: center;
@@ -185,7 +185,7 @@
     animation-duration: 1s;
 }
 
-.sectionTitle{
+.sectionTitle {
     font-family: 'Naston', sans-serif;
     color: var(--element-b);
     text-shadow: var(--element-p) 0.35vh 0.35vh;
@@ -193,7 +193,7 @@
     text-align: center;
 }
 
-.sectionContent{
+.sectionContent {
     height: 35vw;
     width: 28vw;
     background-color: rgba(0, 0, 0, 0.500);
@@ -208,7 +208,7 @@
     overflow-y: auto;
 }
 
-.teamMember{
+.teamMember {
     height: fit-content;
     justify-content: center;
     align-content: center;
@@ -217,7 +217,7 @@
     margin-left: 4%;
 }
 
-.teamPic{
+.teamPic {
     float: left;
     height: 150px;
     width: 150px;
@@ -227,23 +227,23 @@
     margin-top: 2%;
 }
 
-.memberInfo{
+.memberInfo {
     margin-top: 2%;
     margin-left: 35%;
 }
 
-.memberName{
+.memberName {
     text-decoration-line: underline;
 }
 
-.teamRoles{
+.teamRoles {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 10%;
     list-style-type: square;
 }
 
-.discAct{
+.discAct {
     margin-top: 1%;
     margin-left: 5%;
     height: 30px;
@@ -253,7 +253,7 @@
     user-select: none;
 }
 
-.list{
+.list {
     text-decoration-line: underline;
 }
 
@@ -277,12 +277,26 @@ ol li ul {
     visibility: hidden;
     margin-top: 1%;
 }
+ol li ul a {
+    display: block;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2%;
+}
 ol li ul li { 
     display: list-item;
     justify-content: left;
     list-style-type: disc;
     font-size: 15px;
     padding-right: 2%;
+    margin-top: 2%;
+}
+ol li ul li a {
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
     margin-top: 2%;
 }
 ol li ul li p { 
@@ -302,7 +316,7 @@ ol li:hover ul {
     animation-duration: 0.5s;
 }
 
-.linksGroup{
+.linksGroup {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -313,12 +327,12 @@ ol li:hover ul {
     text-align: center;
 }
 
-.linkText{
+.linkText {
     color: white;
     padding-inline-end: 20px;
 }
 
-.linkText:hover{
+.linkText:hover {
     color: var(--element-p);
     padding-inline-end: 20px;
 }
