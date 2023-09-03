@@ -180,7 +180,6 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 1vh;
-    padding-bottom: 10vh;
     animation-name: pullUp;
     animation-duration: 1s;
 }
@@ -314,6 +313,59 @@ ol li:hover ul {
     z-index: 1;
     animation-name: fadeIn;
     animation-duration: 0.5s;
+}
+
+.gallery {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    height: 810px;
+    width: 1440px;
+    text-align: center;
+    padding-bottom: 1vh;
+}
+
+.slidesTitle {
+    font-family: 'Naston', sans-serif;
+    color: var(--element-b);
+    text-shadow: var(--element-p) 0.35vh 0.35vh;
+    font-size: 37px;
+    text-align: center;
+}
+
+.slide {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 1vw;
+    border: 0.5vh solid var(--element-b);
+    box-shadow: var(--element-p) 1vh 1vh;
+    font-size: 25px;
+    color: white; 
+    font-family: 'Naston', sans-serif;
+    text-shadow: var(--element-b) 0.2vh 0.2vh;
+    text-align: left;
+}
+
+.slideText {
+    position: absolute;
+    top: 2%;
+}
+
+.slideImage {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    max-width: 1440px;
+    border-radius: 1vw;
+    cursor: pointer;
 }
 
 .linksGroup {
